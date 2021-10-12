@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+
+}
+
+.navbar_item {
+    flex: 1;
+
+}
