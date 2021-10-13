@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 100px 20px 100px;
+    align-items: center;  
+    justify-content: space-between; 
+}
+.header h2 {
+    
+}
+.navbar {
+    display: flex;
+    text-decoration: none;
+   text-align: center;
+   color: white;
+   text-decoration: none;
+}
+.navbar a {
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    flex: 1;
+    text-decoration: none;
+}
