@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -10,20 +11,25 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 200px 20px 200px;
     flex-direction: column;
+}
+.logo{
+    display: flex;
+    color: white;
 }
 
 #navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .header h1 {
     justify-content: flex-start;
     color: white;
-    padding: 20px 50px 20px 50px;
+    text-align: left;
+    
 }
 
 .navbar {
@@ -33,7 +39,7 @@ body {
     color: white;
     text-decoration: none;
     justify-content: flex-end;
-    padding: 20px 50px 20px 50px;
+   
 }
 
 .navbar a {
@@ -46,22 +52,28 @@ body {
 
 #placeholder_card {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 450px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    padding: 10px 50px 10px 50px;
+    /* padding: 20px 50px 0px 0px; */
     width: 400px;
-    
+    justify-content: flex-start;
+
+}
+.hero {
+    font-size: 48px;
 }
 
-.placeholder {
+.foto {
     display: flex;
-    width: 400px;
-    border: 1 solid black;
-    padding: 10px 50px 10px 50px;
-    
+    padding: 20px 50px 20px 50px;
+    justify-content: flex-end;
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
 }
