@@ -28,7 +28,8 @@ body{
 }
 .navbar a {
     text-align: center;
-    color: white;
-    flex-grow: 1;
+    color: white; 
     text-decoration: none;
-}
+    font-size: 18px;
+    padding: 10px;
+    }
