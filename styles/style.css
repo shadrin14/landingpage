@@ -12,20 +12,23 @@ body{
     align-items: center;  
     justify-content: space-between; 
 }
-.header h2 {
-    
+.header h1 {
+    justify-content: flex-start;
+    color:white;
+    padding: 20px 50px 20px 50px;
 }
 .navbar {
-    display: flex;
+
+    display:inline-block;
     text-decoration: none;
-   text-align: center;
    color: white;
    text-decoration: none;
+   justify-content: flex-end;
+   padding: 20px 50px 20px 50px;
 }
 .navbar a {
     text-align: center;
-    justify-content: space-between;
     color: white;
-    flex: 1;
+    flex-grow: 1;
     text-decoration: none;
 }
