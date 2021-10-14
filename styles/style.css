@@ -89,3 +89,16 @@ body {
     width: 500px;
     border-radius: 5px;
 }
+.content {
+    display:flex;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+
+}
