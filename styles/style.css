@@ -1,11 +1,17 @@
 body {
-    text-align: center;
-    box-sizing: border-box;
+    /* text-align: center; */
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
+    width: 1780px;
+    margin: auto;
+    color:#1F2937 ;
 }
 
 .header {
@@ -29,6 +35,7 @@ body {
     justify-content: flex-start;
     color: white;
     text-align: left;
+    font-size: 38px;
     
 }
 
@@ -43,18 +50,18 @@ body {
 }
 
 .navbar a {
-    text-align: center;
+    /* text-align:end; */
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 10px;
+    padding: 15px;
 }
 
 #placeholder_card {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 450px;
+    
 }
 
 .card {
@@ -68,12 +75,17 @@ body {
 .hero {
     font-size: 48px;
 }
+.card p {
+    color: black;
+}
+.card button {
+    color: cornflowerblue;
+}
 
 .foto {
     display: flex;
-    padding: 20px 50px 20px 50px;
-    justify-content: flex-end;
-    height: 250px;
-    width: 300px;
+    padding: 20px 0px 0px 50px;
+    height: 290px;
+    width: 500px;
     border-radius: 5px;
 }
