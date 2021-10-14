@@ -68,7 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     /* padding: 20px 50px 0px 0px; */
-    width: 400px;
+    width: 50%;
     justify-content: flex-start;
 
 }
@@ -86,8 +86,9 @@ body {
     display: flex;
     padding: 20px 0px 0px 50px;
     height: 290px;
-    width: 500px;
+    width: 50%;
     border-radius: 5px;
+    justify-content: flex-end;
 }
 .content {
     display:flex;
