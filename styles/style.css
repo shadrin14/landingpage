@@ -1,6 +1,6 @@
 body {
     /* text-align: center; */
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #1F2937;
@@ -17,7 +17,7 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-     padding: 20px 200px 20px 200px;
+    padding: 20px 200px 20px 200px;
     flex-direction: column;
 }
 
@@ -144,6 +144,7 @@ blockquote {
 
 blockquote p {
     text-align: center;
+
 }
 
 blockquote cite {
@@ -151,6 +152,26 @@ blockquote cite {
     padding-right: 232px;
     padding-top: 40px;
 }
+
 div.quote {
     width: 100%;
+}
+
+.get_to {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(35, 157, 214);
+    margin: 100px 250px 100px 250px;
+    padding: 0 10px 0 10px;
+}
+
+.footer p {
+    text-align: center;
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 80px;
+    padding-top: 40px;
 }
