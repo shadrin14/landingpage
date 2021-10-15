@@ -1,26 +1,27 @@
 body {
     /* text-align: center; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
     color: #1F2937;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
-    width: 1780px;
-    margin: auto;
-    color:#1F2937 ;
+    color: #1F2937;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
-    padding: 20px 200px 20px 200px;
+     padding: 20px 200px 20px 200px;
     flex-direction: column;
 }
-.logo{
+
+.logo {
     display: flex;
     color: white;
 }
@@ -36,7 +37,7 @@ body {
     color: white;
     text-align: left;
     font-size: 38px;
-    
+
 }
 
 .navbar {
@@ -46,7 +47,7 @@ body {
     color: white;
     text-decoration: none;
     justify-content: flex-end;
-   
+
 }
 
 .navbar a {
@@ -59,9 +60,9 @@ body {
 
 #placeholder_card {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
+
 }
 
 .card {
@@ -72,13 +73,16 @@ body {
     justify-content: flex-start;
 
 }
+
 .hero {
     font-size: 48px;
 }
+
 .card p {
     color: black;
     height: 155px;
 }
+
 .card button {
     color: cornflowerblue;
 }
@@ -91,36 +95,43 @@ body {
     border-radius: 5px;
     justify-content: flex-end;
 }
+
 .content {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
+
 h4 {
     padding-top: 150px;
 }
-.information{
+
+.information {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.images{
+
+.images {
     display: flex;
-    justify-content: space-around;    
+    justify-content: center;
 
 }
+
 .images a {
     box-sizing: border-box;
-    width: 200px;
-    height: 200px;
-    border: 2px solid blue;
-    margin: 40px;
-    border-radius: 25px;
+    width: 213px;
+    height: 209px;
+    border: 10px solid blue;
+    margin: 57px;
+    border-radius: 37px;
 }
+
 button {
     width: 10%;
     display: flex;
     justify-content: center;
 }
+
 blockquote {
     display: flex;
     /* justify-content: center; */
@@ -128,12 +139,18 @@ blockquote {
     flex-direction: column;
     height: 250px;
     background-color: #E5E7EB;
+    margin: auto;
 }
+
 blockquote p {
     text-align: center;
 }
+
 blockquote cite {
     text-align: right;
     padding-right: 232px;
     padding-top: 40px;
+}
+div.quote {
+    width: 100%;
 }
