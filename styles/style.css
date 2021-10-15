@@ -77,6 +77,7 @@ body {
 }
 .card p {
     color: black;
+    height: 155px;
 }
 .card button {
     color: cornflowerblue;
@@ -92,6 +93,10 @@ body {
 }
 .content {
     display:flex;
+    flex-direction: column;
+}
+h4 {
+    padding-top: 150px;
 }
 .information{
     display: flex;
@@ -100,6 +105,35 @@ body {
 }
 .images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
 
+}
+.images a {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    margin: 40px;
+    border-radius: 25px;
+}
+button {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+blockquote {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    flex-direction: column;
+    height: 250px;
+    background-color: #E5E7EB;
+}
+blockquote p {
+    text-align: center;
+}
+blockquote cite {
+    text-align: right;
+    padding-right: 232px;
+    padding-top: 40px;
 }
