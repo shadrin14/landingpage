@@ -69,7 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     /* padding: 20px 50px 0px 0px; */
-    width: 50%;
+    width: 40%;
     justify-content: flex-start;
 
 }
@@ -91,9 +91,12 @@ body {
     display: flex;
     padding: 20px 0px 0px 50px;
     height: 290px;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     justify-content: flex-end;
+    border: 0px solid black;
+    background-image: url(../img/rain_on_sea.jpg);
+    background-size: cover;
 }
 
 .content {
